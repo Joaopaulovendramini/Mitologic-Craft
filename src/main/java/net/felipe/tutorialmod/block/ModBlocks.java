@@ -33,11 +33,23 @@ public class ModBlocks {
     public static final Block ARVORE = registerBLock("bloco_arvore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
-    public static final Block TESTE = registerBLock("teste",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
-
     public static final Block CABECA = registerBLock("cabeca",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block FOLHA = registerBLock("folha",
+            new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_LEAVES)));
+
+    public static final Block BLOCO_ADES = registerBLock("bloco_ades",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block BLOCO_MEDUSA = registerBLock("bloco_medusaa",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block FOLHA_AZUL = registerBLock("folha_azul",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+
+
 
 
 

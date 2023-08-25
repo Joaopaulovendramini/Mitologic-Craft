@@ -3,9 +3,7 @@ package net.felipe.tutorialmod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.felipe.tutorialmod.TutorialMod;
 import net.felipe.tutorialmod.block.ModBlocks;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -30,14 +28,37 @@ public class ModItemsGroup {
 
                         entries.add(ModBlocks.ARVORE);
 
-                        entries.add(ModBlocks.TESTE);
-
                         entries.add(ModBlocks.CABECA);
+
+                        entries.add(ModBlocks.FOLHA);
+
+                        entries.add(ModItems.POTATO_SWORD);
+
+                        entries.add(ModBlocks.BLOCO_ADES);
+
+                        entries.add(ModBlocks.BLOCO_MEDUSA);
+
+                        entries.add(ModBlocks.FOLHA_AZUL);
+
+                        entries.add(ModItems.FIRE_STAFF);
+                        entries.add(ModItems.WIND_STAFF);
+                        entries.add(ModItems.WEATHER_STAFF);
+                        entries.add(ModItems.EC_STAFF);
+                        entries.add(ModItems.THUNDER_STAFF);
+                        entries.add(ModItems.LATENT_STAFF);
+                        entries.add(ModItems.VEX_WING);
+                        entries.add(ModItems.ICE_PROJECTILE);
 
 
 
 
                     }).build());
+
+
+
+
+
+
 
     public static void registerItemGroups(){
         TutorialMod.LOGGER.info("registring Item Group for "+TutorialMod.MOD_ID );

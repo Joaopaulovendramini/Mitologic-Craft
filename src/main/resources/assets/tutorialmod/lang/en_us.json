@@ -7,7 +7,15 @@
   "block.tutorialmod.jump_block": "Bloco personalizado",
   "block.tutorialmod.block_x": "Bloco X",
   "block.tutorialmod.block_arvore": "Bloco Tronco",
-  "block.tutorialmod.teste": "Bloco teste"
+  "block.tutorialmod.teste": "Bloco teste",
+  "block.tutorialmod,folha": "Bloco de Folhas",
+  "item.tutorialmod.fire_staff": "Cajado de Ades",
+  "item.tutorialmod.vex_wing": "Vex Wing",
+  "item.tutorialmod.latent_staff": "Latent Staff",
+  "item.tutorialmod.frost_staff": "",
+  "item.tutorialmod.wind_staff": "Staff of Wind",
+  "item.tutorialmod.ec_staff": "Staff of Holding",
+  "item.tutorialmod.thunder_staff": "Staff of Thunder Wave"
 
 
 }
