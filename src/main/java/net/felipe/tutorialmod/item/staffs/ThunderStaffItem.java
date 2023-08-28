@@ -12,6 +12,7 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
@@ -79,6 +80,8 @@ public class ThunderStaffItem extends WindStaffItem {
                 double eY = entity.getY();
                 double eZ = entity.getZ();
 
+                Direction direction = player.getHorizontalFacing();
+                Vec3d shootAngle = player.getRotationVector();
                 // Vectors
                 Vec3d pushVec = new Vec3d(-(pX - eX), -(pY - eY), -(pZ - eZ));
                 double multiplier = (1 / pushVec.length());
@@ -107,13 +110,12 @@ public class ThunderStaffItem extends WindStaffItem {
         double playerY = player.getY();
         double playerZ = player.getZ();
 
-
+        // Cria um raio no mundo
         LightningEntity lightning = EntityType.LIGHTNING_BOLT.create(world);
-        lightning.refreshPositionAfterTeleport(playerX, playerY, (playerZ + 5));
+        lightning.refreshPositionAfterTeleport((playerX + 5 ), playerY , playerZ );
         world.spawnEntity(lightning);
-        
 
-
+        // Reproduz o som do raio
         world.playSound(player, playerX, playerY, playerZ, SoundEvents.ENTITY_LIGHTNING_BOLT_THUNDER, SoundCategory.PLAYERS, 1.0f, 1.0f);
     }
 }

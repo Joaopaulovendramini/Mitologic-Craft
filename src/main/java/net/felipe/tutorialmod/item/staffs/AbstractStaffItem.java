@@ -19,7 +19,7 @@ public abstract class AbstractStaffItem extends Item  {
 
     protected static SoundEvent STAFF_SOUND = SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP;
 
-    private static final Settings settings = new Settings().maxCount(1).maxDamage(MAX_CHARGE);
+    static final Settings settings = new Settings().maxCount(1).maxDamage(MAX_CHARGE);
     // public static Item INSTANCE = new AbstractStaffItem(settings);
     public AbstractStaffItem(Settings settings) {
         super(settings);

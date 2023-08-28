@@ -21,11 +21,31 @@ public class ModItems {
     public static final Item WIND_STAFF = registerItem("wind_staff", WindStaffItem.INSTANCE);
 
     public static final Item FIRE_STAFF = registerItem("fire_staff", FireStaffItem.INSTANCE);
+
+
     public static final Item WEATHER_STAFF = registerItem("weather_staff", WeatherStaffItem.INSTANCE);
     public static final Item EC_STAFF = registerItem("ec_staff", EnderChestStaffItem.INSTANCE);
 
     public static final Item THUNDER_STAFF = registerItem("thunder_staff", ThunderStaffItem.INSTANCE);
     public static final Item LATENT_STAFF = registerItem("latent_staff", new Item(new FabricItemSettings()));
+
+
+
+
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.HELMET,new FabricItemSettings()));
+
+    public static final Item RUBY_CHEST = registerItem("ruby_chest",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.CHESTPLATE,new FabricItemSettings()));
+
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
+
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY,ArmorItem.Type.BOOTS,new FabricItemSettings()));
+
+
+
 
     // Misc
     public static final Item ICE_PROJECTILE = registerItem("frost_projectile", new Item(new FabricItemSettings()));
@@ -33,30 +53,12 @@ public class ModItems {
     public static final Item POTATO_SWORD = registerItem("espada",
     new SwordItem(SwordToolMaterial.INSTANCE, 3, -2.4F, new Item.Settings()));
 
-
-  /*  public class RegisterItems {
-
-        public static final ArmorMaterial ARMADURA = new CustomArmorMaterial();
-        public static final Item CAPACETE = new ArmorItem(ARMADURA, EquipmentSlot.HEAD, new Item.Settings());
-        public static final Item PEITA = new ArmorItem(ARMADURA, EquipmentSlot.CHEST, new Item.Settings());
-        public static final Item CALCA = new ArmorItem(ARMADURA, EquipmentSlot.LEGS, new Item.Settings());
-        public static final Item PE = new ArmorItem(ARMADURA, EquipmentSlot.FEET, new Item.Settings());
-
-    }
-
-    public static void register() {
-        Registry.register(Registries.ITEM, new Identifier("capacete1", "custom_material_helmet"), CAPACETE);
-        Registry.register(Registries.ITEM, new Identifier("colete1", "custom_material_chestplate"), PEITA);
-        Registry.register(Registries.ITEM, new Identifier("calca1", "custom_material_leggings"), CALCA);
-        Registry.register(Registries.ITEM, new Identifier("bota1", "custom_material_boots"), PE);
-    }
+    public static final Item ESPADA_RUBY = registerItem("espada_ruby",
+            new SwordItem(SwordToolMaterial.INSTANCE, -4, -2.4F, new Item.Settings()));
 
 
 
 
-
-
-*/
 
 
 

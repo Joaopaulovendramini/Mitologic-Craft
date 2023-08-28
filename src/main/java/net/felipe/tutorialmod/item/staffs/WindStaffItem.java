@@ -20,7 +20,7 @@ import java.util.List;
 public class WindStaffItem extends AbstractStaffItem{
 
     protected static int CHARGE_USED = 100;
-    protected static int MAX_CHARGE = 1000;
+    protected static int MAX_CHARGE = 10;
     protected static int STAFF_COOLDOWN = 60;
 
     protected static SoundEvent STAFF_SOUND = SoundEvents.ENTITY_FIREWORK_ROCKET_LAUNCH; //PLACEHOLDER

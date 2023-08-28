@@ -50,6 +50,17 @@ public class ModItemsGroup {
                         entries.add(ModItems.ICE_PROJECTILE);
 
 
+                        entries.add(ModItems.RUBY_CHEST);
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
+                        entries.add(ModItems.ESPADA_RUBY);
+
+
+
+
+
+
 
 
                     }).build());
