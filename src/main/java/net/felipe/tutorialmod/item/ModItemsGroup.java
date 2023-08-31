@@ -14,21 +14,17 @@ public class ModItemsGroup {
     public static final ItemGroup KAISER_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(TutorialMod.MOD_ID,"kaiser_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.kaiser_group"))
-                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.ZEUS)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.RUBY);
-
+                        entries.add(ModItems.GRAVETO_DOURADO);
                         entries.add(ModBlocks.JONAS);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
 
-                        entries.add(ModBlocks.SOUND_BLOCK);
 
-                        entries.add(ModBlocks.BLOCO_X);
 
                         entries.add(ModBlocks.ARVORE);
-
-                        entries.add(ModBlocks.CABECA);
 
                         entries.add(ModBlocks.FOLHA);
 
@@ -42,19 +38,43 @@ public class ModItemsGroup {
 
                         entries.add(ModItems.FIRE_STAFF);
                         entries.add(ModItems.WIND_STAFF);
-                        entries.add(ModItems.WEATHER_STAFF);
                         entries.add(ModItems.EC_STAFF);
                         entries.add(ModItems.THUNDER_STAFF);
-                        entries.add(ModItems.LATENT_STAFF);
-                        entries.add(ModItems.VEX_WING);
-                        entries.add(ModItems.ICE_PROJECTILE);
+                        entries.add(ModItems.ICE_STAFF);
+                        entries.add(ModItems.POSEIDON_STAFF);
+
 
 
                         entries.add(ModItems.RUBY_CHEST);
                         entries.add(ModItems.RUBY_HELMET);
                         entries.add(ModItems.RUBY_LEGGINGS);
                         entries.add(ModItems.RUBY_BOOTS);
+
                         entries.add(ModItems.ESPADA_RUBY);
+
+
+                        entries.add(ModItems.PICARETA_RUBY);
+
+
+
+
+                        entries.add(ModItems.AZEITONA);
+                        entries.add(ModItems.AMBROSIA);
+
+                        entries.add(ModItems.CAPACETE_POSEIDON);
+                        entries.add(ModItems.BOTA_DE_HERMES);
+                        entries.add(ModItems.CALCA_ATENA);
+                        entries.add(ModItems.COLETE_ARES);
+
+
+                        entries.add(ModItems.POSEIDON);
+                        entries.add(ModItems.ATENA);
+                        entries.add(ModItems.HERMES);
+                        entries.add(ModItems.ARES);
+                        entries.add(ModItems.ADES);
+                        entries.add(ModItems.GELO);
+                        entries.add(ModItems.ZEUS);
+
 
 
 

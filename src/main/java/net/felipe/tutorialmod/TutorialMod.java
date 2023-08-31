@@ -3,6 +3,7 @@ package net.felipe.tutorialmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.felipe.tutorialmod.block.ModBlocks;
+import net.felipe.tutorialmod.entity.EntityMod;
 import net.felipe.tutorialmod.item.ModItems;
 import net.felipe.tutorialmod.item.ModItemsGroup;
 import org.slf4j.Logger;
@@ -18,6 +19,8 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBloks();
 		ModItemsGroup.registerItemGroups();
+		EntityMod.registerEntities();
+		EntityMod.registerEntityRenderers();
 
 	}
 }

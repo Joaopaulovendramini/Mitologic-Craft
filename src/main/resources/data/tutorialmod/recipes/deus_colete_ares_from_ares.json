@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:ares"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:deus_colete_ares"
+  }
+}

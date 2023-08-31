@@ -3,7 +3,6 @@ package net.felipe.tutorialmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.felipe.tutorialmod.TutorialMod;
-import net.felipe.tutorialmod.block.custom.SoundBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
@@ -22,13 +21,9 @@ public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBLock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
-    public static final Block SOUND_BLOCK = registerBLock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
 
-    public static final Block BLOCO_X = registerBLock("bloco_x",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block ARVORE = registerBLock("bloco_arvore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -47,13 +42,6 @@ public class ModBlocks {
 
     public static final Block FOLHA_AZUL = registerBLock("folha_azul",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
-
-
-
-
-
-
-
 
 
     private static Block registerBLock(String name, Block block){

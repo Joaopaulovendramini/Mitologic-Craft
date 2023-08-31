@@ -3,27 +3,22 @@ package net.felipe.tutorialmod.item;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class SwordToolMaterial implements ToolMaterial {
-
-    public static final SwordToolMaterial INSTANCE = new SwordToolMaterial();
-
-
-
-
+public class PichaxeToolMaterial implements ToolMaterial {
+    public static final PichaxeToolMaterial INSTANCE = new PichaxeToolMaterial();
 
     @Override
     public int getDurability() {
-        return 2500;
+        return 2000;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 0.0F;
+        return 30;
     }
 
     @Override
     public float getAttackDamage() {
-        return 0.0F;
+        return 4;
     }
 
     @Override
@@ -33,13 +28,11 @@ public class SwordToolMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 22;
+        return 5;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
         return null;
     }
-
-
 }
