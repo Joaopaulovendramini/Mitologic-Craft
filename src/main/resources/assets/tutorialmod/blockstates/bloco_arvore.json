@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": { "model": "tutorialmod:block/bloco_arvore" },
+    "custom_texture": { "model": "tutorialmod:block/bloco_arvore" }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:zeus"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:thunder_staff"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": { "model": "tutorialmod:block/folha_azul" },
+    "custom_texture": { "model": "tutorialmod:block/folha_azul" }
+  }
+}

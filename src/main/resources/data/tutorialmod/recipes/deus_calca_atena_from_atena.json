@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:atena"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:deus_calca_atena"
+  }
+}
