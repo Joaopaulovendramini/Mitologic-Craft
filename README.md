@@ -58,7 +58,7 @@ Para rodar esse projeto, instale:
 -Se divirta com as novas adições :0
 <!-- Explicação da instação ou uso -->
 ## Como usar
--Jogue tanto no creativo ou sobrevivencia e descubra novos itens e funcionalidades
+-Jogue tanto no creativo ou sobrevivencia e descubra novas itens e funcionalidades
 
 <!-- Tecnologias utilizadas no desenvolvimento do projeto -->
 <h2 id="tecnologias">
