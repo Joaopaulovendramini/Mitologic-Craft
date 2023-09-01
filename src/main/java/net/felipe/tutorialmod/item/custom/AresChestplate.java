@@ -73,4 +73,5 @@ public class AresChestplate extends ArmorItem {
 
         return !chestplate.isEmpty();
     }
+
 }
