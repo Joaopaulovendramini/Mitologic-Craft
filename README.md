@@ -83,7 +83,5 @@ Essas foram as tecnologias utilizadas para o desenvolvimento desse projeto.
 	Kaiser.group
 </h2>
 
-Este projeto está sobre a [LICENSE]https://github.com/Joaopaulovendramini) licença.
-
 ---
 
